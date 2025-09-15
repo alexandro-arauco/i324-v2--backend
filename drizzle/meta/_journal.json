@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1757720204000,
+      "tag": "0000_spooky_matthew_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1757722664305,
+      "tag": "0001_boring_zombie",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1757725940866,
+      "tag": "0002_peaceful_richard_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1757924225529,
+      "tag": "0003_useful_brood",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1757965635643,
+      "tag": "0004_lowly_morbius",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1757967203455,
+      "tag": "0005_great_sabretooth",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1757970165259,
+      "tag": "0006_solid_the_liberteens",
+      "breakpoints": true
+    }
+  ]
+}
