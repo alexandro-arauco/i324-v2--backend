@@ -50,6 +50,13 @@
       "when": 1757970165259,
       "tag": "0006_solid_the_liberteens",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1757973681738,
+      "tag": "0007_cool_roxanne_simpson",
+      "breakpoints": true
     }
   ]
 }

@@ -6,6 +6,7 @@ import {
   text,
   timestamp,
   integer,
+  date,
 } from "drizzle-orm/pg-core";
 
 export const devotionals = pgTable("devotionals", {
@@ -71,3 +72,17 @@ export const ministriesToLeadersRelations = relations(
     }),
   })
 );
+
+export const events = pgTable("events", {
+  id: serial("id").primaryKey(),
+  title: text("title").notNull(),
+  description: text("description").notNull(),
+  address: varchar("address", { length: 256 }).notNull(),
+  startDate: date("start_date").notNull(),
+  endDate: date("end_date").notNull(),
+  startTime: varchar("start_time", { length: 256 }).notNull(),
+  endTime: varchar("end_time", { length: 256 }).notNull(),
+  imageUrl: varchar("image_url", { length: 256 }),
+
+  created_at: timestamp("created_at").defaultNow(),
+});

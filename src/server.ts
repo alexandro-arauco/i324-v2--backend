@@ -6,6 +6,7 @@ import devotionalRoutes from "../src/devotionals/routes/devotional.routes";
 import noticeRoutes from "../src/notices/routes/notice.routes";
 import ministryRoutes from "../src/ministries/routes/ministry.routes";
 import leaderRoutes from "../src/leaders/routes/leader.routes";
+import eventRoutes from "../src/events/routes/event.routes";
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.use("/devotionals", devotionalRoutes);
 app.use("/notices", noticeRoutes);
 app.use("/ministries", ministryRoutes);
 app.use("/leaders", leaderRoutes);
+app.use("/events", eventRoutes);
 
 app.get("/", (_, res) => res.json({ ok: true }));
 
